@@ -17,6 +17,6 @@ window.addEventListener('scroll', function(){
     var value = window.pageYOffset;
     text.classList.add('smooth');
     text.style.marginRight = value * (-1);
-    console.log(value);
+    console.log(value); 
     
 });
