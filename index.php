@@ -10,11 +10,21 @@
 <body>
 <section>
     <img src="images/ls1.png" alt="" id="base1">
-    <img src="images/ls1.png" alt="" class="base1">
+
+    <img src="images/ls1.png" alt="" id="base2">
 
 
-    <h2 id="text">PORTFOLIO</h2>
+
+
+    <h2 id="text">HELLO</h2>
+    <h2 id="text1">SUR</h2>
+    <h2 id="text2">MON</h2>
 </section>
+
+    <div>
+        <h1>PORTFOLIO</h1>
+    </div>
+
 <script src="main.js"></script>
 </body>
 </html>

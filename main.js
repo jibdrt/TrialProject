@@ -2,21 +2,26 @@ let base1 = document.getElementById('base1');
 let base2 = document.getElementById('base2');
 let base3 = document.getElementById('base3');
 let base4 = document.getElementById('base4');
+let base5 = document.getElementById('base5');
+let base6 = document.getElementById('base6');
+/* let base2 = document.getElementById('base2');
+let base3 = document.getElementById('base3');
+let base4 = document.getElementById('base4'); */
 let text = document.getElementById('text');
+let text1 = document.getElementById('text1');
+let text2 = document.getElementById('text2');
 
 window.addEventListener('scroll', function(){
     var value = window.scrollY;
-    base1.style.top = -value*0.5+'px';
-    base2.style.top = value*0.8+'px';
-    base3.style.top = value*1+'px';
-    base4.style.top = value*1+'px';
+    base1.style.top = value*0.5+'px';
+    base1.style.top = value*0.6+'px';
+    base1.style.top = value*0.7+'px';
+    base1.style.top = value*0.8+'px';
+    base1.style.top = value*0.9+'px';
+    base1.style.top = value*1+'px';
+
     text.style.top = value*0.5+'px';
+    text1.style.top = value*0.1+'px';
+    text2.style.bottom = value*0.5+'px';
 });
 
-window.addEventListener('scroll', function(){
-    var value = window.pageYOffset;
-    text.classList.add('smooth');
-    text.style.marginRight = value * (-1);
-    console.log(value); 
-    
-});

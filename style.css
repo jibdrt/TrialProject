@@ -6,7 +6,7 @@
 
 body{
     background: #0a2a43;
-    min-height: 1040px;
+    min-height: 150vh;
 }
 
 section{
@@ -31,17 +31,7 @@ section:before{
 
 
 
-section:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:#4888b3;
-    z-index: 10000;
-    mix-blend-mode: color;
-}
+
 
 section img{
     position: absolute;
@@ -62,10 +52,30 @@ section img{
     color: #fff;
     font-size: 10em;
     z-index: 200;
-
     text-decoration: wavy black solid 18px;
-    margin-left: 200vw;
+    margin-left:26vw;
+}
+#text::after{
+content: "   bienvenue";
+font-size: 22px;
+height: 16px;
+width: 16px;
+background: #000;
 
+}
+
+#text1{
+    margin-top: 14vh;
+    background-color: white;
+    POSition: relative;
+}
+#text2{
+    margin-top:20vh;
+    color: white;
+    background-color: #000000;
+    padding: 4vw;
+    POSition: relative;
+    border: 1px white solid;
 }
 
 .smooth{
@@ -80,12 +90,15 @@ section img{
     -o-transform:      scaleY(-1); /* Opera */
     -webkit-transform: scaleY(-1); /* Webkit */
     transform:         scaleY(-1); /* Standard */
-    filter: FlipH;                 /* IE 6/7/8 */
+    filter: brightness(2);
+
 }
 
 #base2{
-    z-index: 99;
+    z-index: 300;
     overflow: hidden;
+    filter: brightness(2);
+
 }
 
 
@@ -94,3 +107,6 @@ section img{
     height: 500px;
     background: #000;
 }
+
+
+*{border: 1px red solid;}
