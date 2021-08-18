@@ -5,8 +5,9 @@
 }
 
 body{
-    background: #0a2a43;
+    background: #000000;
     min-height: 150vh;
+    overflow-x: hidden;
 }
 
 section{
@@ -68,12 +69,14 @@ background: #000;
     margin-top: 14vh;
     background-color: white;
     POSition: relative;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 #text2{
     margin-top:20vh;
     color: white;
     background-color: #000000;
-    padding: 4vw;
+    padding: 3vw;
     POSition: relative;
     border: 1px white solid;
 }
@@ -109,4 +112,12 @@ background: #000;
 }
 
 
-*{border: 1px red solid;}
+
+#PTF{
+    color: white;
+    font-size: 15vw;
+    text-align: center;
+    position: relative;
+    margin-left: 60vw;
+    filter:saturate(120%);
+}

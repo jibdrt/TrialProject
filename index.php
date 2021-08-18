@@ -11,7 +11,7 @@
 <section>
     <img src="images/ls1.png" alt="" id="base1">
 
-    <img src="images/ls1.png" alt="" id="base2">
+    <img src="images/ls2.png" alt="" id="base2">
 
 
 
@@ -22,7 +22,7 @@
 </section>
 
     <div>
-        <h1>PORTFOLIO</h1>
+        <h1 id="PTF">PORTFOLIO</h1>
     </div>
 
 <script src="main.js"></script>

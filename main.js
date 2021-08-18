@@ -10,6 +10,7 @@ let base4 = document.getElementById('base4'); */
 let text = document.getElementById('text');
 let text1 = document.getElementById('text1');
 let text2 = document.getElementById('text2');
+let ptf = document.getElementById('PTF');
 
 window.addEventListener('scroll', function(){
     var value = window.scrollY;
@@ -24,4 +25,16 @@ window.addEventListener('scroll', function(){
     text1.style.top = value*0.1+'px';
     text2.style.bottom = value*0.5+'px';
 });
+
+window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    ptf.style.right = value*2+"px";
+
+
+
+
+
+
+}
+);
 
