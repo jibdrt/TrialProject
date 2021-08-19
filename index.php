@@ -9,9 +9,9 @@
 </head>
 <body>
 <section>
-    <img src="images/ls1.png" alt="" id="base1">
+    <img src="images/ls5.png" alt="" id="base1">
 
-    <img src="images/ls2.png" alt="" id="base2">
+    <img src="images/ls6.png" alt="" id="base2">
 
 
 
@@ -21,7 +21,8 @@
     <h2 id="text2">MON</h2>
 </section>
 
-    <div>
+    <div class="second">
+        <p></p>
         <h1 id="PTF">PORTFOLIO</h1>
     </div>
 

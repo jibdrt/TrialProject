@@ -11,6 +11,7 @@ let text = document.getElementById('text');
 let text1 = document.getElementById('text1');
 let text2 = document.getElementById('text2');
 let ptf = document.getElementById('PTF');
+let surmon = document.getElementById('surmon');
 
 window.addEventListener('scroll', function(){
     var value = window.scrollY;
@@ -22,13 +23,14 @@ window.addEventListener('scroll', function(){
     base1.style.top = value*1+'px';
 
     text.style.top = value*0.5+'px';
-    text1.style.top = value*0.1+'px';
+    text1.style.bottom = value*0.5+'px';
     text2.style.bottom = value*0.5+'px';
 });
 
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
     ptf.style.right = value*2+"px";
+    surmon.style.left = value*2+"px";
 
 
 
