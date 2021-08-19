@@ -31,12 +31,6 @@ window.addEventListener('scroll', function(){
     let value = window.scrollY;
     ptf.style.right = value*2+"px";
     surmon.style.left = value*2+"px";
-
-
-
-
-
-
 }
 );
 

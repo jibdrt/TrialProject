@@ -5,8 +5,9 @@
 }
 
 body{
-    min-height: 150vh;
+    min-height: 145vh;
     overflow-x: hidden;
+    
 }
 
 section{
@@ -51,9 +52,9 @@ section img{
 #text{
     position: relative;
     color: #fff;
+    background-color: #222222;
     font-size: 10em;
     z-index: 200;
-    text-decoration: wavy black solid 18px;
     margin-left:26vw;
 }
 #text::after{
@@ -61,7 +62,8 @@ content: "   bienvenue";
 font-size: 22px;
 height: 16px;
 width: 16px;
-background: #000;
+background: #fff;
+color: #222222;
 
 }
 
@@ -104,6 +106,7 @@ font-size: 10vh;
     -webkit-transform: scaleY(-1); /* Webkit */
     transform:         scaleY(-1); /* Standard */
     filter: brightness(2);
+    display: none;
 
 }
 
@@ -115,22 +118,19 @@ font-size: 10vh;
 
 }
 
-
-
-
-
-
-
 #PTF{
-    color: white;
+    color: #222222;
     font-size: 15vw;
     text-align: center;
     position: relative;
+    background-color: #fff;
     margin-left: 60vw;
 
 }
 
 
 .second{
-    background-color: #222222;
+    background-color: #fff;
 }
+
+
