@@ -7,6 +7,7 @@
 body{
     min-height: 145vh;
     overflow-x: hidden;
+
     
 }
 
@@ -19,6 +20,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: #222222;
+
 }
 
 section:before{
@@ -134,3 +136,22 @@ font-size: 10vh;
 }
 
 
+::-webkit-scrollbar {
+    display: none;
+
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    display: none;
+
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    display: none;
+
+  }
+
+
+  

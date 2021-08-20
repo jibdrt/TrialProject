@@ -11,7 +11,7 @@
 <section id="my-background">
     <img src="images/ls5.png" alt="" id="base1">
 
-    <img src="images/ls6.png" alt="" id="base2">
+    <img src="images/ls.png" alt="" id="base2">
 
 
 
@@ -19,6 +19,11 @@
     <h2 id="text">HELLO</h2>
     <h2 id="text1">SUR</h2>
     <h2 id="text2">MON</h2>
+
+
+
+
+    
 </section>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
@@ -26,6 +31,8 @@
 <script>
   VANTA.CLOUDS('#my-background')
 </script>
+
+
 
     <div class="second">
         <p></p>
