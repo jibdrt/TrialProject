@@ -9,18 +9,18 @@
 </head>
 <body>
 <section id="my-background">
-    <img src="images/ls5.png" alt="" id="base1">
+<!--     <img src="images/ls5.png" alt="" id="base1">
 
-    <img src="images/ls.png" alt="" id="base2">
-
-
+    <img src="images/ls.png" alt="" id="base2"> -->
 
 
-    <h2 id="text">HELLO</h2>
+
+
+    <h2 id="text">&nbsp;&nbsp;&nbsp;</h2>
     <h2 id="text1">SUR</h2>
     <h2 id="text2">MON</h2>
 
-
+    <div id="parallax"></div>
 
 
     
@@ -34,13 +34,13 @@
 
 
 
-    <div class="second">
+<!--     <div class="second">
         <p></p>
         <h1 id="PTF">PORTFOLIO</h1>
-    </div>
+    </div> -->
 
 
-    <button id="button" class="bt">
+<!--     <button id="button" class="bt">
         BUTTONTESTCLIC
     </button>
 
@@ -48,7 +48,7 @@
 
         <h1>OK LETS TRY SOMETHING MACHINCHOSE</h1>
         
-    </div>
+    </div> -->
 
 
 <script src="main.js"></script>
