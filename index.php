@@ -39,7 +39,28 @@
         <h1 id="PTF">PORTFOLIO</h1>
     </div>
 
+
+    <button id="button" class="bt">
+        BUTTONTESTCLIC
+    </button>
+
+    <div id="divtest">
+
+        <h1>OK LETS TRY SOMETHING MACHINCHOSE</h1>
+        
+    </div>
+
+
 <script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script>
+                $(document).ready(function(){
+                $("button").click(function(){
+                    $("#divtest").load("ajaxtest.php");
+                });
+                });
+        </script>
 </body>
 </html>
 
