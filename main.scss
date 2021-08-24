@@ -222,8 +222,27 @@ transition: 1s;
 
 
 .subwrap{
-    border: 2px #222222 solid;
-    height: 4vw;
-    width: 4vw;
+    border: 1px #222222 solid;
+    width: 2vw;
+    height: 2vw;
     margin: 2vw;
+    
+    &:hover{
+
+        transform: scale(3);
+        transition: 1s;
+        border: 0.5px #222222 solid;
+    }
+    &:not(:hover){
+        transition: 1s;
+    }
 }
+
+.a{
+    transform-origin: bottom left;
+}
+.b{
+    transform-origin: top left;
+}
+
+

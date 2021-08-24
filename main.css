@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 10000;
+}
+
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.bt {
+  height: 80px;
+  width: 120px;
+  border: 1px red solid;
+  z-index: 9999;
+  margin-left: 200px;
+}
+
+.bt:hover {
+  border: 2px black solid;
+  border-radius: 25%;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.bt:not(:hover) {
+  transition: 1s;
+}
+
+#my-background {
+  height: 100vh;
+}
+
+#parallax {
+  width: 30%;
+  height: 30vh;
+  background-image: url("images/tree.jpg");
+  opacity: 70% !important;
+  background-size: 120% !important;
+  background-position: center;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: 2px #222222 solid;
+}
+
+#text {
+  position: absolute;
+  color: #fff;
+  background-color: transparent !important;
+  font-size: 10em;
+  z-index: 200;
+  text-align: center !important;
+  border: 2px #222222 solid;
+}
+
+#text::after {
+  content: "              bienvenue";
+  font-size: 22px;
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  color: #222222;
+  border: 1px white solid;
+}
+
+#text:hover {
+  background-color: #222222 !important;
+  color: white !important;
+  transition: 1s;
+}
+
+#text:not(:hover) {
+  transition: 2s;
+}
+
+#text1 {
+  margin-top: 110vh;
+  font-size: 10vh;
+  background-color: white;
+  POSition: relative;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  z-index: 500;
+  padding-right: 5vw;
+  margin-left: 2vw;
+}
+
+#text2 {
+  color: white;
+  background-color: #000000;
+  margin-top: 110vh;
+  POSition: relative;
+  border: 1px white solid;
+  z-index: 500;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  font-size: 10vh;
+  padding: 1vw;
+}
+
+.smooth {
+  transition: 1.2s;
+}
+
+#base1 {
+  z-index: 100;
+  overflow: hidden;
+  box-shadow: 50px 50px 50px 50px white;
+  /* Gecko */
+  /* Opera */
+  /* Webkit */
+  transform: scaleY(-1);
+  /* Standard */
+  filter: brightness(2);
+  display: none;
+}
+
+#base2 {
+  z-index: 100;
+  margin-top: 200px;
+  overflow: hidden;
+  filter: brightness(2);
+}
+
+#PTF {
+  color: #222222;
+  font-size: 15vw;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  margin-left: 60vw;
+}
+
+.second {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+h1 {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Arial";
+  text-transform: uppercase;
+  opacity: 0.2;
+  font-size: 70px;
+}
+
+.subwrap {
+  border: 1px #222222 solid;
+  width: 2vw;
+  height: 2vw;
+  margin: 2vw;
+}
+.subwrap:hover {
+  transform: scale(3);
+  transition: 1s;
+  border: 0.5px #222222 solid;
+}
+.subwrap:not(:hover) {
+  transition: 1s;
+}
+
+.a {
+  transform-origin: bottom left;
+}
+
+.b {
+  transform-origin: top left;
+}/*# sourceMappingURL=main.css.map */
