@@ -14,16 +14,23 @@
     <img src="images/ls.png" alt="" id="base2"> -->
 
 <div class="wrapper">
-    <div class="subwrap a"><div class="a"></div></div>
-    <div class="subwrap b"></div>
+    <div class="subwrap a">
+        <h3 class="rubric">PROJETS</h3>
+    </div>
+    <div class="subwrap b">
+    <h3 class="rubric">À PROPOS</h3>
+        </div>
 </div>
 
 
     <h2 id="text">&nbsp;&nbsp;&nbsp;</h2>
-    <h2 id="text1">SUR</h2>
-    <h2 id="text2">MON</h2>
+    <h2 id="text1"></h2>
+    <h2 id="text2"></h2>
 
     <div id="parallax"></div>
+    <div class="contact">
+        <h3>CONTACT</h3>
+    </div>
 
 
     
@@ -32,7 +39,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.clouds.min.js"></script>
 <script>
-  VANTA.CLOUDS('#my-background')
+  VANTA.CLOUDS({el :'#my-background',
+    cloudColor: 0x888d98,
+    cloudShadowColor: 0xffffff,
+    speed: 1.50
+  })
 </script>
 
 

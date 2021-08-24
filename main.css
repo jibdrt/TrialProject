@@ -93,8 +93,6 @@ section img {
 }
 
 #text:hover {
-  background-color: #222222 !important;
-  color: white !important;
   transition: 1s;
 }
 
@@ -105,26 +103,38 @@ section img {
 #text1 {
   margin-top: 110vh;
   font-size: 10vh;
-  background-color: white;
-  POSition: relative;
+  background-color: transparent !important;
   padding-top: 5vh;
   padding-bottom: 5vh;
   z-index: 500;
   padding-right: 5vw;
   margin-left: 2vw;
 }
+#text1:hover {
+  height: 30vh !important;
+  transition: 1s;
+}
+#text1:not(:hover) {
+  transition: 1s;
+}
 
 #text2 {
   color: white;
-  background-color: #000000;
+  background-color: transparent !important;
   margin-top: 110vh;
-  POSition: relative;
   border: 1px white solid;
   z-index: 500;
   margin-right: 3vw;
   margin-left: 3vw;
   font-size: 10vh;
   padding: 1vw;
+}
+#text2:hover {
+  height: 30vh !important;
+  transition: 1s;
+}
+#text2:not(:hover) {
+  transition: 1s;
 }
 
 .smooth {
@@ -191,16 +201,25 @@ h1 {
 .subwrap {
   border: 1px #222222 solid;
   width: 2vw;
-  height: 2vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: 2vw;
+  padding: 2vw;
+  margin-left: -1vw;
 }
 .subwrap:hover {
-  transform: scale(3);
+  transform: scale(2);
   transition: 1s;
-  border: 0.5px #222222 solid;
+  border: 0.5px #ffffff solid;
+  cursor: pointer;
 }
 .subwrap:not(:hover) {
   transition: 1s;
+}
+
+.rubric {
+  margin-left: -1vw;
 }
 
 .a {
@@ -209,4 +228,22 @@ h1 {
 
 .b {
   transform-origin: top left;
+}
+
+/* ------------------------------------------ */
+.contact {
+  -ms-writing-mode: tb-lr;
+      writing-mode: vertical-lr;
+  font-family: monospace;
+  border: 1px #222222 solid;
+  padding: 2.5vw 0px 2.5vw 0px;
+  letter-spacing: 1vw;
+}
+.contact:hover {
+  cursor: pointer;
+  transition: 1s;
+  transform: rotate(-90deg);
+}
+.contact:not(:hover) {
+  transition: 1s;
 }/*# sourceMappingURL=main.css.map */

@@ -4,6 +4,8 @@
     font-family: monospace;
 }
 
+
+
 body{
 
     overflow-x: hidden;
@@ -85,6 +87,7 @@ transition: 1s;
     justify-content: center !important;
     align-items: center !important;
     border: 2px #222222 solid;
+
 }
 
 
@@ -99,6 +102,7 @@ transition: 1s;
     z-index: 200;
     text-align: center !important;
     border: 2px #222222 solid;
+    
 }
 #text::after{
 content: "              bienvenue";
@@ -111,9 +115,8 @@ border: 1px white solid;
 
 }
 #text:hover{
-background-color: #222222 !important;
-color: white !important;
 transition: 1s;
+
 }
 
 #text:not(:hover){
@@ -123,28 +126,43 @@ transition: 1s;
 #text1{
     margin-top: 110vh;  
     font-size: 10vh;
-    background-color: white;
-    POSition: relative;
+    background-color: transparent !important;
     padding-top: 5vh;
     padding-bottom: 5vh;
     z-index: 500;
     padding-right: 5vw;
     margin-left: 2vw;
+    &:hover{
+        height: 30vh !important;
+        transition: 1s;
+    }
+    &:not(:hover){
+        transition: 1s;
+    }
 }
+
 #text2{
 
     color: white;
-    background-color: #000000;
+    background-color: transparent !important;
     margin-top: 110vh;
-    POSition: relative;
     border: 1px white solid;
     z-index: 500;
     margin-right: 3vw;
     margin-left: 3vw;
     font-size: 10vh;
     padding: 1vw;
-
+    &:hover{
+        height: 30vh !important;
+        transition: 1s;
+    }
+    &:not(:hover){
+        transition: 1s;
+    }
 }
+
+
+
 
 .smooth{
     transition: 1.2s;
@@ -221,28 +239,55 @@ transition: 1s;
 
 
 
-.subwrap{
-    border: 1px #222222 solid;
-    width: 2vw;
-    height: 2vw;
-    margin: 2vw;
-    
-    &:hover{
+    .subwrap{
+        border: 1px #222222 solid;
+        width: 2vw;
+        height: fit-content;
+        margin: 2vw;
+        padding: 2vw;
+        margin-left: -1vw;
+        
+        &:hover{
+            transform: scale(2);
+            transition: 1s;
+            border: 0.5px #ffffff solid;
+            cursor: pointer;
 
-        transform: scale(3);
+        }
+        &:not(:hover){
+            transition: 1s;
+        }
+    }
+
+.rubric{
+    margin-left: -1vw;
+}
+
+
+        .a{
+            transform-origin: bottom left;
+
+        }
+        .b{
+            transform-origin: top left;
+        }
+
+/* ------------------------------------------ */
+
+.contact{
+    writing-mode:vertical-lr;
+    font-family: monospace;
+    border: 1px #222222 solid;
+    padding: 2.5vw 0px 2.5vw 0px;
+    letter-spacing: 1vw;
+
+
+    &:hover{
+        cursor: pointer;
         transition: 1s;
-        border: 0.5px #222222 solid;
+        transform: rotate(-90deg);
     }
     &:not(:hover){
         transition: 1s;
     }
 }
-
-.a{
-    transform-origin: bottom left;
-}
-.b{
-    transform-origin: top left;
-}
-
-
