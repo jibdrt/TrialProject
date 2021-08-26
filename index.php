@@ -14,12 +14,19 @@
     <img src="images/ls.png" alt="" id="base2"> -->
 
 <div class="wrapper">
-    <div class="subwrap a">
-        <h3 class="rubric">PROJETS</h3>
-    </div>
-    <div class="subwrap b">
-    <h3 class="rubric">À PROPOS</h3>
+
+        <div class="subwrap a">
+            <h3 class="rubric">PROJETS</h3>
         </div>
+
+
+<button class="button">
+        <div class="subwrap b">
+            <h3 class="rubric">À PROPOS</h3>
+            <div id="divtest"></div>
+        </div>
+</button>
+
 </div>
 
 
@@ -71,7 +78,7 @@
         <script>
                 $(document).ready(function(){
                 $("button").click(function(){
-                    $("#divtest").load("ajaxtest.php");
+                    $("#divtest").load("ajaxtest.php").hide().fadeIn(1500);
                 });
                 });
         </script>

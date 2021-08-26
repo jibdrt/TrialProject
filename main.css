@@ -36,29 +36,22 @@ section img {
   pointer-events: none;
 }
 
-.bt {
-  height: 80px;
-  width: 120px;
-  border: 1px red solid;
-  z-index: 9999;
-  margin-left: 200px;
+/* .bt{
+    height: 80px;
+    width: 120px;
+    border: 1px red solid;
+    z-index: 9999;
+    margin-left: 200px;
 }
-
-.bt:hover {
-  border: 2px black solid;
-  border-radius: 25%;
-  transition: 1s;
-  cursor: pointer;
+.bt:hover{
+border: 2px black solid;
+border-radius: 25%;
+transition: 1s;
+cursor: pointer;
 }
-
-.bt:not(:hover) {
-  transition: 1s;
-}
-
-#my-background {
-  height: 100vh;
-}
-
+.bt:not(:hover){
+transition: 1s;
+} */
 #parallax {
   width: 30%;
   height: 30vh;
@@ -239,11 +232,13 @@ h1 {
   padding: 2.5vw 0px 2.5vw 0px;
   letter-spacing: 1vw;
 }
-.contact:hover {
-  cursor: pointer;
-  transition: 1s;
-  transform: rotate(-90deg);
+
+.button {
+  border: none;
+  background-color: transparent;
 }
-.contact:not(:hover) {
-  transition: 1s;
+
+.wrap {
+  text-align: start;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
