@@ -17,8 +17,9 @@
 
         <div id="btnProject" class="subwrap a">
             <h3 class="rubric">PROJETS</h3>
-            <div id="displayProject"></div>
+            
         </div>
+
 
 
 
@@ -29,7 +30,7 @@
 
 
 </div>
-
+<div id="displayProject"></div>
 
     <h2 id="text">&nbsp;&nbsp;&nbsp;</h2>
     <h2 id="text1"></h2>
@@ -79,7 +80,7 @@
         <script>
                 $(document).ready(function(){
                 $("#btnProject").click(function(){
-                    $("#displayProject").load("ajax-cont.php").slideToggle(1500);
+                    $("#displayProject").load("project.php").slideToggle(1500);
                 });
                 });
         </script>

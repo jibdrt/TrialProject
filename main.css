@@ -241,4 +241,8 @@ h1 {
 .wrap {
   text-align: start;
   font-size: 12px;
-}/*# sourceMappingURL=main.css.map */
+  -webkit-animation: showUp 2s ease-in;
+          animation: showUp 2s ease-in;
+}
+
+/* ------project.php---------- *//*# sourceMappingURL=main.css.map */
