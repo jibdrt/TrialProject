@@ -15,17 +15,18 @@
 
 <div class="wrapper">
 
-        <div class="subwrap a">
+        <div id="btnProject" class="subwrap a">
             <h3 class="rubric">PROJETS</h3>
+            <div id="displayProject"></div>
         </div>
 
 
-<button class="button">
-        <div class="subwrap b">
+
+        <div id="btnAbout" class="subwrap b">
             <h3 class="rubric">À PROPOS</h3>
-            <div id="divtest"></div>
+            <div id="displayAbout"></div>
         </div>
-</button>
+
 
 </div>
 
@@ -77,10 +78,18 @@
 
         <script>
                 $(document).ready(function(){
-                $("button").click(function(){
-                    $("#divtest").load("ajaxtest.php").hide().fadeIn(1500);
+                $("#btnProject").click(function(){
+                    $("#displayProject").load("ajax-cont.php").slideToggle(1500);
                 });
                 });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $("#btnAbout").click(function(){
+                    $("#displayAbout").load("ajax-cont.php").slideToggle(1500);
+                });
+            }
+            );
         </script>
 </body>
 </html>
