@@ -13,6 +13,8 @@
 
     <img src="images/ls.png" alt="" id="base2"> -->
 
+<div id="displayProject"></div>
+
 <div class="wrapper">
 
         <div id="btnProject" class="subwrap a">
@@ -30,7 +32,9 @@
 
 
 </div>
-<div id="displayProject"></div>
+
+
+
 
     <h2 id="text">&nbsp;&nbsp;&nbsp;</h2>
     <h2 id="text1"></h2>
@@ -44,6 +48,8 @@
 
     
 </section>
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.clouds.min.js"></script>
@@ -87,7 +93,7 @@
         <script>
             $(document).ready(function(){
                 $("#btnAbout").click(function(){
-                    $("#displayAbout").load("ajax-cont.php").slideToggle(1500);
+                    $("#displayAbout").load("ajax-cont.php").animate({width: "toggle", height: "toggle"},1000);
                 });
             }
             );

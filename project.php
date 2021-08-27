@@ -9,11 +9,14 @@
 
 <style>
     .wrap{
+        display: flex;
+        margin-bottom: 5vh;
+
     
     }
     .inner{
-        height: 50px;
-        width: 25px;
+        height: 120px;
+        width: 20px;
         border: 1px black solid;
     }
 </style>
